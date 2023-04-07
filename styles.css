@@ -106,6 +106,18 @@ body {
    cursor: pointer;
 }
 
+.attribution {
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    right: 2%;
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
 @media screen and (max-width: 600px) {
     .container{
         width: 343px;
